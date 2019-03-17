@@ -23,6 +23,6 @@ module.exports = function getLoveTrianglesCount(preferences = []) {
 		}
 	}
 
-  return result;
+	return result;
 };
 
