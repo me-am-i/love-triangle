@@ -15,37 +15,14 @@ module.exports = function getLoveTrianglesCount(preferences = []) {
 		
 		thirdElement = preferences[secondElement-1];
 
-		//console.log (preferences, preferences[i] );
-		//console.log (" I = " + i + ". firstElement = " + firstElement + ". secondElement = " + secondElement + ". thirdElement = " + thirdElement + "\n"  );
 		
-
-
-
 		if ((thirdElement == i+1) && (firstElement < secondElement) && (thirdElement < secondElement))
 		{
-
-			
-
-
-			result = result + 1;
-
-		//	console.log("result = " + result )
+			result++;
+	
 		}
 	}
 
-
-
-
-
-
-	//console.log(preferences + "\n");
-
- // console.log (result);
   return result;
 };
 
-
-
-//if (true == 0) {
-//	preferences.length //общее число элементов
-//};
